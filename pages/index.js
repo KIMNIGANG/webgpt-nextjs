@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { api_get, api_get_after } from "./api_get";
+import { api_get, api_get_after } from "../components/api_get";
 
 const employeeOptions = [
   "従業員の制約なし",
