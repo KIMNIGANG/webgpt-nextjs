@@ -310,7 +310,7 @@ function Home() {
       {chatList.map((item, index) => {
         return (
           <div key={index} className="chat-item">
-            <p>{item}</p>
+            <pre>{item}</pre>
           </div>
         );
       })}

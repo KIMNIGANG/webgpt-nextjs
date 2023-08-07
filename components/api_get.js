@@ -24,6 +24,7 @@ export async function api_get(text, context) {
       My company is like this ${text}, which do you think is the best for my company from the financial list?
       This is a financial list ${JSON.stringify(jgrantsResponse.props.result)}
       Answer in Japanese
+      And, You do not need to attach a link of grants to your answer.
       `;
     messages.push({ role: "system", content: prompt });
 

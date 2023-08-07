@@ -106,3 +106,14 @@ tr:hover {
 .chat-item {
   border-bottom: 1px solid black; /* this will add a black line at the bottom */
 }
+
+pre {
+  white-space: pre-wrap;
+  word-break: break-all;
+  text-align: left;
+  padding: 15px;
+}
+
+a {
+  color: black;
+}
